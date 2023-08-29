@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-brasil"
+version = "0.0.1"
+description = "python package to bring access to data in Brazil"
+authors = ["Luketss <lucassilluzio@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_brasil"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pydantic = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
